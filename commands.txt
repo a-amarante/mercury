@@ -1,9 +1,0 @@
-rm -rf *.dmp *.tmp *.out *.aei *.clo *.o
-#gfortran mercury6_2.for -o mercury6
-make clean
-make all
-./mercury6
-gfortran element6.for -o element6
-./element6
-gfortran close6.for -o close6
-./close6
